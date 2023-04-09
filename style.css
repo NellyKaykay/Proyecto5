@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+       background-image: url(images/hd-wallpaper-4968444_1920.jpg);
+       background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+        padding: 1em 1em;
+        font-size: 400;
+    }  
+    .navbar {
+        display: flex;
+        transition: all 2s;
+         gap: 2em;
+        color: rgb(219, 109, 230);
+        font-size: 48px;
+        list-style-type: none;
+        text-decoration: none;
+           }
+     .navbar-item a {
+        text-decoration: none;
+        color: rgb(194, 121, 234);
+     }  
+     
+     
+     h1 {
+       display: flex;
+       justify-content: center;
+        color: rgb(75, 7, 112);
+        font-size: 60px;
+        
+     }
+
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 14em;
+    
+}      
+button {
+    background-color: rgb(42, 5, 45);
+   
+    padding: 1em 3em;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+
+}
